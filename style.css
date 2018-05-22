@@ -30,7 +30,7 @@ button {
   padding: 20px;
   text-align: center;
   margin: 4px 2px;
-  border-radius: 50%;
+  border-radius: 15%;
 }
 .silver {
   background-color: silver;
@@ -41,4 +41,13 @@ button {
 }
 button {
   font-size: 26px;
+}
+.equals {
+  grid-column: 3 / span 2;
+  border-radius: 15%;
+}
+
+.clear {
+  grid-column: 1 / span 2;
+  border-radius: 15%;
 }

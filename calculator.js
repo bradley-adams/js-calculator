@@ -59,15 +59,21 @@ $(document).ready(function() {
         }
         tempanswer = temptotal;
         break;
+      }
     }
+    overallTotal = tempanswer;
+    $("#display").html(overallTotal)
+    entries = [];
   }
-  overallTotal = tempanswer;
-  $("#display").html(overallTotal)
-  entries = [];
-}
 
-
-
+  if (clickedButton === 'AC'){
+    entries = [];
+    tempEquations = '';
+    overallTotal = '';
+    $('#display').html('0')
+  } else if (clickedButton === 'CE'){
+    tempEquations = '';
+  }
 
     });
   });
