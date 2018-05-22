@@ -5,6 +5,7 @@ $(document).ready(function() {
   var clickedButton = '';
   var symbol = '';
 
+
   $("button").click(function() {
     clickedButton = this.innerHTML
     console.log('clickedButton: ' + clickedButton);
