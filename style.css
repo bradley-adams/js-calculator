@@ -45,9 +45,10 @@ button {
 .equals {
   grid-column: 3 / span 2;
   border-radius: 15%;
+  background-color: orange;
 }
 
-.clear {
+.AC{
   grid-column: 1 / span 2;
   border-radius: 15%;
 }
